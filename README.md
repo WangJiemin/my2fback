@@ -2,6 +2,14 @@
 #### [闪回大概介绍](https://jiemin.wang/2019/04/19/mysql-flashback-priciple-and-practice/)想了解的，请阅读。
 
 #### my2fback 实现了基于row格式binlog的回滚闪回功能，让误删除或者误更新数据，可以不停机不使用备份而快速回滚误操作。也可以解释binlog（支持非row格式binlog）生成易读的SQL。
+
+# 安装与使用 
+* 下载
+   + 有编译好的linux与window二进制版本
+   * [Linux](https://github.com/WangJiemin/my2fback/blob/master/releases/my2fback)
+   * [windows](https://github.com/WangJiemin/my2fback/blob/master/releases/my2fback.exe)
+* 使用
+   * [Document](https://jiemin.wang/2019/07/17/my2fback/)
  
 #### my2fback 连接数据库帐号的权限: 
 * MySQL5.6/MariaDB10.1/MariaDB10.2版本
@@ -27,14 +35,7 @@ mysql> GRANT SELECT, REPLICATION SLAVE, REPLICATION CLIENT, PROCESS ON *.* TO 'u
    + 但注意此开始与结束时间针对的是binlog event header中保存的unix timestamp。结果中的额外的datetime时间信息都是binlog event header中的unix timestamp
 * decimal字段使用float64来表示， 但不损失精度
 * 所有字符类型字段内容按golang的utf8(相当于mysql的utf8mb4)来表示
-    
-# 安装与使用 
-* 下载
-   + 有编译好的linux与window二进制版本
-   * [Linux](https://github.com/WangJiemin/my2fback/blob/master/releases/my2fback)
-   * [windows](https://github.com/WangJiemin/my2fback/blob/master/releases/my2fback.exe)
-* 使用
-   * [Document]()
+
 
 # TODO
 - [x] file方式解析binlog
