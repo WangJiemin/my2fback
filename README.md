@@ -24,12 +24,12 @@
     * 所有字符类型字段内容按golang的utf8(相当于mysql的utf8mb4)来表示
     
 # 安装与使用 
-    1) 下载
+    * 下载
         有编译好的linux与window二进制版本
         [Linux](https://github.com/WangJiemin/my2fback/blob/master/releases/my2fback)
         [windows](https://github.com/WangJiemin/my2fback/blob/master/releases/my2fback.exe)
         
-    3）使用
+    * 使用
        [Document]()
 
 # TODO
