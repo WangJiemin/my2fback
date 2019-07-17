@@ -1,0 +1,128 @@
+# github.com/StackExchange/wmi v0.0.0-20180725035823-b12b22c5341f
+github.com/StackExchange/wmi
+# github.com/WangJiemin/jamintools v0.0.0-20190709081102-0345ca85b96c
+github.com/WangJiemin/jamintools/constvar
+github.com/WangJiemin/jamintools/dsql
+github.com/WangJiemin/jamintools/ehand
+github.com/WangJiemin/jamintools/logging
+github.com/WangJiemin/jamintools/dbes
+github.com/WangJiemin/jamintools/myjson
+github.com/WangJiemin/jamintools/mystr
+# github.com/cznic/mathutil v0.0.0-20181122101859-297441e03548
+github.com/cznic/mathutil
+# github.com/davecgh/go-spew v1.1.1
+github.com/davecgh/go-spew/spew
+# github.com/dropbox/godropbox v0.0.0-20190501155911-5749d3b71cbe
+github.com/dropbox/godropbox/database/sqlbuilder
+github.com/dropbox/godropbox/database/sqltypes
+github.com/dropbox/godropbox/errors
+github.com/dropbox/godropbox/encoding2
+# github.com/go-errors/errors v1.0.1
+github.com/go-errors/errors
+# github.com/go-ole/go-ole v1.2.1
+github.com/go-ole/go-ole
+github.com/go-ole/go-ole/oleutil
+# github.com/go-sql-driver/mysql v0.0.0-20170715192408-3955978caca4
+github.com/go-sql-driver/mysql
+# github.com/golang/protobuf v1.3.1
+github.com/golang/protobuf/proto
+# github.com/juju/errors v0.0.0-20190207033735-e65537c515d7
+github.com/juju/errors
+# github.com/konsorten/go-windows-terminal-sequences v1.0.1
+github.com/konsorten/go-windows-terminal-sequences
+# github.com/mailru/easyjson v0.0.0-20190626092158-b2ccc519800e
+github.com/mailru/easyjson
+github.com/mailru/easyjson/jlexer
+github.com/mailru/easyjson/jwriter
+github.com/mailru/easyjson/buffer
+# github.com/olivere/elastic v6.2.21+incompatible
+github.com/olivere/elastic/config
+github.com/olivere/elastic/uritemplates
+# github.com/orcaman/concurrent-map v0.0.0-20190314100340-2693aad1ed75
+github.com/orcaman/concurrent-map
+# github.com/pingcap/errors v0.11.4
+github.com/pingcap/errors
+# github.com/pingcap/log v0.0.0-20190307075452-bd41d9273596
+github.com/pingcap/log
+# github.com/pingcap/parser v0.0.0-20190613045206-37cc370a20a4
+github.com/pingcap/parser
+github.com/pingcap/parser/ast
+github.com/pingcap/parser/mysql
+github.com/pingcap/parser/types
+github.com/pingcap/parser/auth
+github.com/pingcap/parser/charset
+github.com/pingcap/parser/model
+github.com/pingcap/parser/opcode
+github.com/pingcap/parser/terror
+github.com/pingcap/parser/format
+# github.com/pingcap/tidb v3.0.0+incompatible
+github.com/pingcap/tidb/types/parser_driver
+github.com/pingcap/tidb/types
+github.com/pingcap/tidb/util/hack
+github.com/pingcap/tidb/sessionctx/stmtctx
+github.com/pingcap/tidb/types/json
+github.com/pingcap/tidb/util/logutil
+github.com/pingcap/tidb/util/math
+github.com/pingcap/tidb/util/execdetails
+github.com/pingcap/tidb/util/memory
+# github.com/pingcap/tipb v0.0.0-20190428032612-535e1abaa330
+github.com/pingcap/tipb/go-tipb
+github.com/pingcap/tipb/sharedbytes
+# github.com/pkg/errors v0.8.1
+github.com/pkg/errors
+# github.com/remyoudompheng/bigfft v0.0.0-20170806203942-52369c62f446
+github.com/remyoudompheng/bigfft
+# github.com/satori/go.uuid v1.2.0
+github.com/satori/go.uuid
+# github.com/shirou/gopsutil v2.18.10+incompatible
+github.com/shirou/gopsutil/mem
+github.com/shirou/gopsutil/internal/common
+# github.com/shopspring/decimal v0.0.0-20180709203117-cd690d0c9e24
+github.com/shopspring/decimal
+# github.com/siddontang/go v0.0.0-20180604090527-bdc77568d726
+github.com/siddontang/go/hack
+# github.com/siddontang/go-log v0.0.0-20180807004314-8d05993dda07
+github.com/siddontang/go-log/log
+github.com/siddontang/go-log/loggers
+# github.com/siddontang/go-mysql v0.0.0-20190711035447-8b9c05ee162e
+github.com/siddontang/go-mysql/mysql
+github.com/siddontang/go-mysql/replication
+github.com/siddontang/go-mysql/client
+github.com/siddontang/go-mysql/packet
+# github.com/sirupsen/logrus v1.4.1
+github.com/sirupsen/logrus
+# github.com/toolkits/file v0.0.0-20160325033739-a5b3c5147e07
+github.com/toolkits/file
+# github.com/toolkits/slice v0.0.0-20141116085117-e44a80af2484
+github.com/toolkits/slice
+# go.uber.org/atomic v1.3.2
+go.uber.org/atomic
+# go.uber.org/multierr v1.1.0
+go.uber.org/multierr
+# go.uber.org/zap v1.9.1
+go.uber.org/zap
+go.uber.org/zap/internal/bufferpool
+go.uber.org/zap/zapcore
+go.uber.org/zap/buffer
+go.uber.org/zap/internal/color
+go.uber.org/zap/internal/exit
+# golang.org/x/sys v0.0.0-20190109145017-48ac38b7c8cb
+golang.org/x/sys/unix
+golang.org/x/sys/windows
+# golang.org/x/text v0.3.2
+golang.org/x/text/encoding
+golang.org/x/text/encoding/charmap
+golang.org/x/text/encoding/japanese
+golang.org/x/text/encoding/korean
+golang.org/x/text/encoding/simplifiedchinese
+golang.org/x/text/encoding/traditionalchinese
+golang.org/x/text/encoding/unicode
+golang.org/x/text/encoding/internal/identifier
+golang.org/x/text/transform
+golang.org/x/text/encoding/internal
+golang.org/x/text/internal/utf8internal
+golang.org/x/text/runes
+# gopkg.in/natefinch/lumberjack.v2 v2.0.0
+gopkg.in/natefinch/lumberjack.v2
+# gopkg.in/olivere/elastic.v6 v6.2.21
+gopkg.in/olivere/elastic.v6
