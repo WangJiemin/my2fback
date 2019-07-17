@@ -1,4 +1,6 @@
 # 简介
+#### [闪回大概介绍](https://jiemin.wang/2019/04/19/mysql-flashback-priciple-and-practice/)想了解的，请阅读。
+
 #### my2fback 实现了基于row格式binlog的回滚闪回功能，让误删除或者误更新数据，可以不停机不使用备份而快速回滚误操作。也可以解释binlog（支持非row格式binlog）生成易读的SQL。
  
 #### my2fback 连接数据库帐号的权限: 
